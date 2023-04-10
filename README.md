@@ -1,7 +1,7 @@
 # Output format - character, program, output (CPO)
 
 <p align="center">
-    <img width="666" height="274" alt="Example" src="./assets/example.svg"/>
+  <img alt="Example" src="./assets/example.svg"/>
 </p>
 
 This format tries to standardize the console data output for the project. It is simple and informative at the same time. It is not a log format, but for information like any error where the log is redundant and the raw output is not properly thrown.
@@ -9,7 +9,7 @@ This format tries to standardize the console data output for the project. It is 
 ## Basic design
 
 <p align="center">
-      <img width="582" height="126" alt="Example" src="./assets/design.svg"/>
+  <img alt="Example" src="./assets/design.svg"/>
 </p>
 
 1. The `STARTCHARACTER` is optional
