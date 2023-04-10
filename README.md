@@ -1,12 +1,16 @@
-![Example](./assets/example.svg)
-
 # Output format - character, program, output (CPO)
+
+<center>
+    <img alt="Example" src="./assets/example.svg"/>
+</center>
 
 This format tries to standardize the console data output for the project. It is simple and informative at the same time. It is not a log format, but for information like any error where the log is redundant and the raw output is not properly thrown.
 
 ## Basic design
 
-![Example](./assets/design.svg)
+<center>
+    <img alt="Example" src="./assets/design.svg"/>
+</center>
 
 1. The `STARTCHARACTER` is optional
 2. There must be a space after the `STARTCHARACTER`
