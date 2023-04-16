@@ -15,18 +15,29 @@ This format tries to standardize the console data output for a project. It is si
 ### Rules
 
 1. The `STARTCHARACTER` is optional
-2. There must be a space after the `STARTCHARACTER`
-3. The `PROGRAM` must be written with capital letters
-4. There must be a colon a space after `PROGRAM`
-5. Separators, such as spaces or colons, should be the color of a text
-6. Keywords should be highlighted or underlined
-7. `PROGRAM` can contain spaces
+2. The `PROGRAM` parameter is optional if there is `STARTCHARACTER`
+3. There must be a space after the `STARTCHARACTER`
+4. The `PROGRAM` must be written with capital letters
+5. There must be a colon a space after `PROGRAM`
+6. Separators, such as spaces or colons, should be the color of a text
+7. Keywords should be highlighted or underlined
+8. `PROGRAM` can contain spaces
 
 You can check your output using a regular expression.
 The expression does not analyze design subtleties!
 
 ```regexp
-/(^.( ))?([A-Z-0-9 ]+(:)( ))(.*)/gm
+/(^.( ))?([a-zA-Z-0-9 ]+(:)( ))?(.*)/gm
+```
+
+### Example
+
+```
+× STRANGE ERROR: Something's wrong...
+```
+
+```
+✓ It's okay
 ```
 
 ## FAQ
