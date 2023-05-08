@@ -40,6 +40,10 @@ The expression does not analyze design subtleties!
 ✓ It's okay
 ```
 
+```
+NOTE: wash the dishes
+```
+
 ## FAQ
 
 ### Why use it?
